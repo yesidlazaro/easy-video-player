@@ -1,18 +1,12 @@
 apply plugin: 'com.android.library'
 
-ext {
-    PUBLISH_GROUP_ID = 'com.afollestad'
-    PUBLISH_ARTIFACT_ID = 'com.afollestad.easyvideoplayer'
-    PUBLISH_VERSION = '0.1.1'
-}
-
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
 
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 23
+        minSdkVersion 21
+        targetSdkVersion 229
         versionCode 1
         versionName "0.1.1"
     }
@@ -26,7 +20,6 @@ android {
 
 dependencies {
     compile 'me.zhanghai.android.materialprogressbar:library:1.1.6'
-    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'androidx.appcompat:appcompat:1.0.0'
 }
 
-apply from: 'https://raw.githubusercontent.com/afollestad/aidanfollestad.com/master/android-release-aar.gradle'

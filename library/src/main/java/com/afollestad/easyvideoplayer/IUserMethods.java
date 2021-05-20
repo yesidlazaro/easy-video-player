@@ -1,9 +1,9 @@
 package com.afollestad.easyvideoplayer;
 
 import android.net.Uri;
-import android.support.annotation.CheckResult;
-import android.support.annotation.IntRange;
-import android.support.annotation.NonNull;
+import androidx.annotation.CheckResult;
+import androidx.annotation.IntRange;
+import androidx.annotation.NonNull;
 
 /**
  * @author Aidan Follestad (afollestad)
